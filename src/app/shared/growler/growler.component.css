@@ -1,0 +1,31 @@
+
+
+.growler{
+    position: fixed;
+    z-index: 99999
+}
+
+.growler.top{
+    right: 20px;
+    top:20px
+}
+ .growl {
+    cursor: pointer;
+    padding: 5;
+    width: 285px;
+    height: 65px; 
+    opacity: 0;      
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s; 
+    -o-transition: opacity 1s;
+    transition: opacity 1s;        
+  }   
+  
+  .growl.active {        
+    opacity: 1;
+  } 
+  
